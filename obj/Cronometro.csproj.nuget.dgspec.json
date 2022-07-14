@@ -1,35 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willian.grillo\\source\\repos\\Cronometro\\Cronometro.csproj": {}
+    "C:\\Users\\Master\\Documents\\Projetos\\BackEnd\\Cronometro-CSharp\\Cronometro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willian.grillo\\source\\repos\\Cronometro\\Cronometro.csproj": {
+    "C:\\Users\\Master\\Documents\\Projetos\\BackEnd\\Cronometro-CSharp\\Cronometro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willian.grillo\\source\\repos\\Cronometro\\Cronometro.csproj",
+        "projectUniqueName": "C:\\Users\\Master\\Documents\\Projetos\\BackEnd\\Cronometro-CSharp\\Cronometro.csproj",
         "projectName": "Cronometro",
-        "projectPath": "C:\\Users\\willian.grillo\\source\\repos\\Cronometro\\Cronometro.csproj",
-        "packagesPath": "C:\\Users\\willian.grillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willian.grillo\\source\\repos\\Cronometro\\obj\\",
+        "projectPath": "C:\\Users\\Master\\Documents\\Projetos\\BackEnd\\Cronometro-CSharp\\Cronometro.csproj",
+        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Master\\Documents\\Projetos\\BackEnd\\Cronometro-CSharp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\willian.grillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.autoglass.com.br/svc": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,20 +37,30 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

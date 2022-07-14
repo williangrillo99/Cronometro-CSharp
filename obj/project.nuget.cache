@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VdDIeq5RktN4/PuNcN7IotG7orOo7FwN4iCYafyo5k9wxnpxY5izpaUV0MhTX2SNSLk2/PXs4azyeGGXr852Yw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Master\\Documents\\Projetos\\BackEnd\\Cronometro-CSharp\\Cronometro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
